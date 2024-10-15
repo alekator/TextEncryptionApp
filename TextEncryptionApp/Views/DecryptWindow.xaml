@@ -1,0 +1,14 @@
+﻿<Window x:Class="TextEncryptionApp.Views.DecryptWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Дешифровка текста" Height="400" Width="300">
+    <Grid>
+        <Label Content="Key:" Grid.Row="3" Visibility="Collapsed" Name="keyLabel" />
+        <TextBox Name="keyTextBox" Grid.Row="3" Visibility="Collapsed" Width="200" />
+        <TextBox x:Name="encryptedTextBox" Margin="10,47,10,0" Height="100" VerticalAlignment="Top" AcceptsReturn="True" />
+        <ComboBox x:Name="decryptionMethodComboBox" Margin="10,10,10,0" Height="25" VerticalAlignment="Top" />
+        <Button x:Name="decryptButton" Content="Расшифровать" Margin="10,160,10,0" VerticalAlignment="Top" Click="DecryptButton_Click" />
+        <TextBox x:Name="outputTextBox" Margin="10,200,10,0" Height="100" VerticalAlignment="Top" AcceptsReturn="True" IsReadOnly="True" />
+        <Button x:Name="loadButton" Content="Загрузить" Margin="10,310,10,0" VerticalAlignment="Top" />
+    </Grid>
+</Window>
