@@ -21,7 +21,7 @@ Text Encryption App is a text encryption and decryption application written in C
 ### Installation Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/TextEncryptionApp.git
+   git clone https://github.com/alekator/TextEncryptionApp.git
    cd TextEncryptionApp
 2. Install the required NuGet packages:
 dotnet restore
