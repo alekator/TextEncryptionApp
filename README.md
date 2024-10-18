@@ -28,6 +28,7 @@ dotnet restore
 3. Configure the connection to the PostgreSQL database in the code (check the connection string).
 4. Run the application:
 dotnet run
+
 ### Usage
 Launch the application.
 Select the encryption method from the dropdown list.
